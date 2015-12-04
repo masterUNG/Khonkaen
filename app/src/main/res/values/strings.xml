@@ -23,4 +23,9 @@
     <string name="title_activity_im_san">im_san</string>
     <string name="title_activity_supp">supp</string>
 
+    <string name="wat_th1">วัดหนองแวง 1 นะจ้ะ</string>
+    <string name="wat_th2">วัดหนองแวง 2</string>
+    <string name="wat_th3">วัดหนองแวง 3</string>
+
+
 </resources>
