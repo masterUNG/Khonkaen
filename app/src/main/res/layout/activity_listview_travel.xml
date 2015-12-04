@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.administrator.khonnkean.listview_travel">
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:gravity="left"
+    android:orientation="vertical"
+
+    android:padding="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+    <EditText android:id="@+id/EditText01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Search">
+
+    </EditText>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
+</LinearLayout>
+
+</RelativeLayout>

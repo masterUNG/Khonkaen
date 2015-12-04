@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgs3"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ผ้าไหมเมืองชนบท"
+        android:id="@+id/textView3"
+        android:textColor="#090909"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="90dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:text="New Text"
+        android:id="@+id/s"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#23951b" />
+
+
+</LinearLayout>

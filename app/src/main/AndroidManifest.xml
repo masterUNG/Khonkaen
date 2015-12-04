@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.khonnkean" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Unseen of Khonkaen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScondActivity" />
+        <activity android:name=".ScodActivity" />
+        <activity android:name=".ScoActivity" />
+        <activity android:name=".ScActivity" />
+        <activity android:name=".SvActivity" />
+        <activity android:name=".SbActivity" />
+        <activity android:name=".SsActivity" />
+        <activity android:name=".SupActivity" />
+        <activity android:name=".SjActivity" />
+        <activity android:name=".BknkActivity" />
+        <activity android:name=".UbrActivity" />
+        <activity android:name=".HmmActivity" />
+        <activity android:name=".PptpActivity" />
+        <activity android:name=".UtyActivity" />
+        <activity android:name=".SunsActivity" />
+        <activity android:name=".TskmActivity" />
+        <activity android:name=".TskdkActivity" />
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAJbb7I73AbZGbJlDV8x1DtLipCx09qobQ" />
+
+        <activity
+            android:name=".listview_travel"
+            android:label="@string/title_activity_listview_travel" >
+        </activity>
+        <activity
+            android:name=".show_travel"
+            android:label="@string/title_activity_show_travel" >
+        </activity>
+        <activity
+            android:name=".Mum"
+            android:label="@string/title_activity_mum"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Kun"
+            android:label="@string/title_activity_kun"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".vdobun"
+            android:label="@string/title_activity_vdobun"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".vdo1"
+            android:label="@string/title_activity_vdo1"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_wat"
+            android:label="@string/title_activity_im_wat"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_bknk"
+            android:label="@string/title_activity_im_bkn"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_hmmk"
+            android:label="@string/title_activity_im_hmmk"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_bang"
+            android:label="@string/title_activity_im_bang"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_ubon"
+            android:label="@string/title_activity_im_ubon"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_pu"
+            android:label="@string/title_activity_im_pu"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_uu"
+            android:label="@string/title_activity_im_uu"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".im_san"
+            android:label="@string/title_activity_im_san"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".supp"
+            android:label="@string/title_activity_supp"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

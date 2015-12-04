@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mk"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ตั้งอยู่ที่ถนนกลางเมือง ริมบึงแก่นนคร อำเภอเมือง ภายในวัดหนองแวงเมืองเก่าซึ่งเป็นพระอารามหลวง มีพระมหาธาตุแก่นนคร หรือ พระธาตุเก้าชั้นฐานสี่เหลี่ยมกว้างด้านละ 50 เมตร เรือนยอดทรงเจดีย์จำลองแบบจากพระธาตุขามแก่น จัดสร้างขึ้น เนื่องในวโรกาสที่ พระบาทสมเด็จพระเจ้าอยู่หัวทรงครองสิริราชสมบัติครบ 50 ปี และ มหามังคลานุสรณ์ 200 ปี เมืองขอนแก่น ความสูงขององค์พระธาตุฯ 80 เมตร มีพระจุลธาตุ 4 องค์ ตั้งอยู่ 4 มุมและมีกำแพงแก้วพญานาค 7 เศียรล้อมรอบ เป็นศิลปะสมัยทวาราวดี "
+        android:textSize="23dp"
+        android:id="@+id/textView7"
+        android:layout_marginTop="40dp"
+        android:textColor="#ff0e0b55"
+        android:layout_weight="0.86" />
+</LinearLayout>

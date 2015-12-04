@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingTop="20dp"
+    android:background="@drawable/bgt2"
+    android:id="@+id/jk"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="วัดหนองเเวงพระอารามหลวง"
+        android:id="@+id/textView3"
+        android:textColor="#090909"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="45dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_weight="0.57">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3" >
+
+            <TextView
+                android:layout_width="295dp"
+                android:layout_height="222dp"
+                android:text="New Text"
+                android:id="@+id/nw"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#51a416" />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHOTO"
+        android:id="@+id/wat"
+        android:layout_marginLeft="130dp"
+        android:textColor="#090909"
+        android:background="#24ac1d" />
+
+
+</LinearLayout>

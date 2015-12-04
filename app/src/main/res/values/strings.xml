@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Khonkaen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_listview_travel">สถานที่ท่องเที่ยว</string>
+    <string name="title_activity_show_travel">show_travel</string>
+    <string name="title_activity_listview_folk">listview_folk</string>
+    <string name="title_activity_listview_showfolk">listview_showfolk</string>
+    <string name="title_activity_mm">Mm</string>
+    <string name="title_activity_mum">Mum</string>
+    <string name="title_activity_kun">Kun</string>
+    <string name="title_activity_vdobun">vdobun</string>
+    <string name="title_activity_vdo1">vdo1</string>
+    <string name="title_activity_im_wat">im_wat</string>
+    <string name="title_activity_im_bkn">im_bkn</string>
+    <string name="title_activity_im_hmmk">im_hmmk</string>
+    <string name="title_activity_im_bang">im_bang</string>
+    <string name="title_activity_im_ubon">im_ubon</string>
+    <string name="title_activity_im_pu">im_pu</string>
+    <string name="title_activity_im_uu">im_uu</string>
+    <string name="title_activity_im_san">im_san</string>
+    <string name="title_activity_supp">supp</string>
+
+</resources>

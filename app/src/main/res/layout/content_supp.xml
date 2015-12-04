@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_supp" tools:context="com.example.administrator.khonnkean.supp">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout">
+
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="ส่วนผสมเเละวิธีการทำ"
+                android:id="@+id/button"
+                android:background="#00ffffff"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="หน่อไม้ดองขูดเป็นเส้นเล็กฝอย 1 ถ้วย"
+                android:id="@+id/button"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="น้ำปลาร้าต้ม 1 ช้อนชา"
+                android:id="@+id/button"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text=" น้ำปลา 2 ช้อนโต๊่"
+                android:id="@+id/butto1"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text=" ข้าวคั่วป่น 2 ช้อนโต๊ะ"
+                android:id="@+id/butto2"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text=" พริกป่น 1 ช้อนโต๊ะ"
+                android:id="@+id/butto3"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="เกลือ 1 ช้อนชา"
+                android:id="@+id/butto4"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="น้ำมะนาว 1 ช้อนชา"
+                android:id="@+id/butto5"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="งาขาวคั่ว 1 ช้อนโต๊ะ"
+                android:id="@+id/butto6"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="ต้นหอมซอย 1/2 ถ้วย"
+                android:id="@+id/butto7"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text=" ผักชีหั่น 1/2 ถ้วย"
+                android:id="@+id/butto8"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="1.ก่อนอื่นก็ต้องเอาหน่อไม้ ที่จะใช้มาปลอกเปลือกและนำไปต้มเพื่อล้างความขมและสารบางอย่างออกจากหน่อไม้เสียก่อนต้มจนหน่อไม้นุ่มอ่อนตัวลง
+                เสร็จแล้วนำมาขูดเป็นเส้นๆโดยใช้ส้อมขูด
+ เสร็จแล้วก็เก็บพักไว้ก่อน"
+                android:id="@+id/butto9"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c"
+                android:layout_marginTop="10dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="2.ต่อไปก็ต้มน้ำให้เดือด ใส่ตะไคร้และเนื้อปลาช่อนลงไปต้ม
+           ใส่น้ำปลาร้าที่เตรียมไว้ ลงไปในหม้อเลย เพื่อให้กลิ่นตะไคร้และปลาร้าเข้ากัน
+           หอมทั้งน้ำและเนื้อปลา  เมื่อสุกก็เอามาแกะเอาแต่เนื้อปลา
+           พักไว้ก่อน ส่วนน้ำต้มปลาก็เก็บไว้ใช้ต่อ"
+                android:id="@+id/butto10"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text=" 3.คราวนี้มาคั้นน้ำใบย่านาง โดยเอาใบย่านางมาตำให้ละเอียด
+            แล้วเอามาละลายกับน้ำ กรองเอาแต่น้ำใบย่านางมาใช้ เสร็จแล้วก็เอาใส่หม้อขึ้นตั้งไฟ
+            ใส่หน่อไม้ลงไปต้ม  ให้น้ำใบย่านางซึมเข้าหน่อไม้"
+                android:id="@+id/butto11"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="4.ระหว่างนี้ก็เอาหอม และกระเทียมที่ย่างให้หอมแล้ว
+           มาตำในครกให้ละเอียด เมื่อละเอียดพอแล้ว ก็เอาเนื้อปลาที่แกะไว้แล้วมาใส่ครก
+            โรยพริกป่นลงไปโขลกให้เข้ากับเนื้อปลา"
+                android:id="@+id/butto11"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="5.ใส่น้ำต้มปลาที่เหลือจากการต้มปลาลงไปด้วย โขลกคลุกเคล้าให้เข้ากัน
+           เสร็จแล้วก็ตักขึ้นจากครก พักไว้ก่อน"
+                android:id="@+id/butto11"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="6.กลับไปดูหน่อไม้ที่ต้มกับน้ำใบย่านาง ว่าแห้งได้ที่แล้ว
+            ก็เอามาใส่ครกตำให้หน่อไม้นุ่มและขาดออกจากกัน
+           เอาเนื้อปลาที่โขลกไว้แล้ว มาใส่ในครก ใส่น้ำปลา โขลกคลุกเคล้าให้เข้ากัน"
+                android:id="@+id/butto11"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text=" 8.เมื่อเข้ากันดีแล้วก็ใส่ผักที่เหลือลงไป ทั้งผักแพรว ต้มหอม  หอม ใบสะระเหน่  และก็งาคั่ว ตำคลุกเคล้ากันอีกทีให้เข้ากัน "
+                android:id="@+id/butto11"
+                android:background="#00ffffff"
+                android:textColor="#1e9d5c" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
